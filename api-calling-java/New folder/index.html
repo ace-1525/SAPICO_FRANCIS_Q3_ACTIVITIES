@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+           <meta charset='utf-8'>
+<meta name= "viewport" content-type="width=device-width,
+initial-scale=1.0">
+<title> Weather and Time</title>
+<script src="api_call.js" defer></script>
+</head>
+<body>
+   
+    <h1>Weather and Time API Demo</h1>
+    <form id="apiForm">
+        <label for="city">Enter City:</label>
+        <input type="text" id="city" name="city" required>
+        <button type="submit">Get Weather and Time</button>
+        </form>
+
+        <div i="result">
+            <h2>Results:</h2>
+            <h3>Weather:</h3>
+            <p id="weatherResult"> Loading weather...</p>
+        <h3> Local Time:</h3>
+        <p id="timeResult"> Loading time...</p>
+        </div>
+</body>
+</html>
